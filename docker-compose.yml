@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  algorithm:
+    build: .
+    container_name: bellman-ford
+    stdin_open: true
+    tty: true
+    ports:
+      - "8000:8000"  # ตัวอย่างการเชื่อมต่อพอร์ตของเครื่องโฮสต์กับคอนเทนเนอร์
+    volumes:
+      - .:/app  # Mount โฟลเดอร์ปัจจุบันไปยังโฟลเดอร์ /app ในคอนเทนเนอร์
