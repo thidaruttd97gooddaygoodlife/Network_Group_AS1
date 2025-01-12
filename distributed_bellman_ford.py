@@ -53,6 +53,6 @@ class DistributedBellmanFord:
             print(f"Node {node}: {distances[-1] if distances else 'No distances recorded'}")
 
 if __name__ == "__main__":
-    # ตัวอย่าง
+
     print(f"Current working directory: {os.getcwd()}")
-    # หรือเรียกฟังก์ชันหลักที่คุณสร้างขึ้น
+ 
