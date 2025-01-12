@@ -1,1 +1,2 @@
-Distribute BellmanFord 
+Distributed BellmanFord 
+(+Docker) local(pub)
